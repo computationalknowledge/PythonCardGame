@@ -1,0 +1,26 @@
+for i in range(1,5): 
+	print(i, "Hello Python"); 
+
+num = 0;
+while num < 5:	
+	print( num, "Hello Python"); 
+	
+	if num > 2: break;
+	num += 1;
+
+# function definition and declaration
+def calculate_sum(a,b):
+  sum = a+b
+  return sum
+
+# The below statement is called function call
+answer = (calculate_sum(2,3))
+print ("answer is " , answer);
+
+
+alphabet = "abcdefghijklmnopqrstuvwxyz"
+
+while i<len(alphabet):
+	print (alphabet[i]);
+	i = i+1;
+print(alphabet[1:3])
